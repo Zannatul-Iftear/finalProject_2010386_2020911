@@ -80,3 +80,17 @@
 
 
 
+@media (max-width: 600px){
+  .homeInfoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .homeInfoContainer p{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  
+}

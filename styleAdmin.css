@@ -3,10 +3,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 #userImgInfo{
   display: flex;
+  margin: 5px
 }
 
 #userImg{
@@ -31,6 +33,22 @@ h2{
   font-size: 20px;
   color: #C1400C;
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 20px;
+  }
+  
+  h2{
+    font-size: 15px;
+  }
+
+  #userImg{
+    max-height: 100px;
+    margin-right: 20px;
+  }
+  
 }
 
 /* --------------- List Styling --------------- */
@@ -86,4 +104,11 @@ h2{
 .buttonContainer{
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .adminListDetails{
+    flex-direction: column;
+  }
+  
 }

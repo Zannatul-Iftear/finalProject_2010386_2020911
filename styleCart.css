@@ -9,6 +9,7 @@
   border: 4px solid #D67F12;
   border-radius: 20px;
   margin: 10px 0;
+  flex-wrap: wrap;
 }
 
 .cartDetails{
@@ -46,7 +47,7 @@
 .cartButtons{
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 .cartButtons .myButton{
