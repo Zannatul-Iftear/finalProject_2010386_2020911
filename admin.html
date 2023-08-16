@@ -12,8 +12,8 @@
 
     <!------- Stylesheet and Page Title: ------->
 
-    <link id="stylesheet" rel="stylesheet" href="styleCart.css">
-    <title>Cart</title>
+    <link id="stylesheet" rel="stylesheet" href="styleAdmin.css">
+    <title>Admin Panel</title>
   </head>
 
   <body>
@@ -29,9 +29,213 @@
       <div class="row" id="myRow">
         <div class="col-md-8 mx-auto">
           <p class="pageTitle">Admin Panel</p>
-          hello
+          <div id="userInfoContainer">
+            <div id="userImgInfo">
+              <img src="img/iconDashboard.png" id="userImg">
+              <div id="userInfo">
+                <h1>Full Name</h1>
+                <h2>email@gmail.com</h2>
+                <h2>Address, Road, Dhaka</h2>
+                <h2>01987654321</h2>
+              </div>
+            </div>
+            <div id="userEditButtonContainer">
+              <button class="myButton">EDIT</button>
+            </div>
+          </div>
 
+          <!--------------- Products List --------------->
 
+          <h1>Products:</h1>
+          <div class="adminList">
+
+            <div class="adminListEntry" id="roshogolla">
+              <div class="adminListDetails">
+                <div class="adminListSerial">1.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">Roshogolla</h1>
+                  <h2 id="productPriceLabel">Price: 350tk per kg</h2>
+                  <h2 id="productImgLabel">Image: “img/productImgRoshogolla.png”</h2>
+                  <h2 id="productQuantityLabel">Quantity sold: 45kg</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="editButton">Edit</button>
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="kalaJaam">
+              <div class="adminListDetails">
+                <div class="adminListSerial">2.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">Kala Jaam</h1>
+                  <h2 id="productPriceLabel">Price: 500tk per kg</h2>
+                  <h2 id="productImgLabel">Image: “img/productImgKalajaam.png”</h2>
+                  <h2 id="productQuantityLabel">Quantity sold: 290kg</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="editButton">Edit</button>
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="laddu">
+              <div class="adminListDetails">
+                <div class="adminListSerial">3.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">Laddu</h1>
+                  <h2 id="productPriceLabel">Price: 420tk per kg</h2>
+                  <h2 id="productImgLabel">Image: “img/productImgRoshogolla.png”</h2>
+                  <h2 id="productQuantityLabel">Quantity sold: 22kg</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="editButton">Edit</button>
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="chchana">
+              <div class="adminListDetails">
+                <div class="adminListSerial">4.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">Chchana</h1>
+                  <h2 id="productPriceLabel">Price: 280tk per kg</h2>
+                  <h2 id="productImgLabel">Image: “img/productImgChchana.png”</h2>
+                  <h2 id="productQuantityLabel">Quantity sold: 67kg</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="editButton">Edit</button>
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="buttonContainer">
+              <button class="myButton" id="addProductButton">Add product</button>
+            </div>
+            
+          </div>
+
+          <!--------------- Wrapping Paper List --------------->
+
+          <h1>Wrapping Papers:</h1>
+          <div class="adminList">
+
+            <div class="adminListEntry" id="roshogolla">
+              <div class="adminListDetails">
+                <div class="adminListSerial">1.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">“img/wrappingPaper1.png”</h1>
+                  <h2 id="productPriceLabel">Quantity sold: 5</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="kalaJaam">
+              <div class="adminListDetails">
+                <div class="adminListSerial">2.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">“img/wrappingPaper2.png”</h1>
+                  <h2 id="productPriceLabel">Quantity sold: 10</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="laddu">
+              <div class="adminListDetails">
+                <div class="adminListSerial">3.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">“img/wrappingPaper3.png”</h1>
+                  <h2 id="productPriceLabel">Quantity sold: 8</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="chchana">
+              <div class="adminListDetails">
+                <div class="adminListSerial">4.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">“img/wrappingPaper4.png”</h1>
+                  <h2 id="productPriceLabel">Quantity sold: 8</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="buttonContainer">
+              <button class="myButton" id="addWrapperButton">Add Wrapping Paper</button>
+            </div>
+            
+          </div>
+
+          <!--------------- Users List --------------->
+
+          <h1>Users:</h1>
+          <div class="adminList">
+
+            <div class="adminListEntry" id="roshogolla">
+              <div class="adminListDetails">
+                <div class="adminListSerial">1.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">Ahmed Korim</h1>
+                  <h2 id="productPriceLabel">email@gmail.com</h2>
+                  <h2 id="productImgLabel">Address, Road, Dhaka</h2>
+                  <h2 id="productQuantityLabel">01999999999</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="editButton">Edit</button>
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="kalaJaam">
+              <div class="adminListDetails">
+                <div class="adminListSerial">2.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">Sanzar Adnan Alam</h1>
+                  <h2 id="productPriceLabel">email@gmail.com</h2>
+                  <h2 id="productImgLabel">Address, Road, Dhaka</h2>
+                  <h2 id="productQuantityLabel">01777777777</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="editButton">Edit</button>
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+
+            <div class="adminListEntry" id="kalaJaam">
+              <div class="adminListDetails">
+                <div class="adminListSerial">3.</div>
+                <div class="adminListText">
+                  <h1 id="productNameLabel">ADMIN: Doggo Kuddus</h1>
+                  <h2 id="productPriceLabel">email@gmail.com</h2>
+                  <h2 id="productImgLabel">Address, Road, Dhaka</h2>
+                  <h2 id="productQuantityLabel">01777777777</h2>
+                </div>
+              </div>
+              <div class="adminListButtons">
+                <button class="myButton" id="editButton">Edit</button>
+                <button class="myButton" id="deleteButton">Delete</button>
+              </div>
+            </div>
+            
+          </div>
 
     
         </div>
